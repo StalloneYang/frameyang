@@ -22,12 +22,19 @@ class TestLogin(unittest.TestCase):
         self.loginPage.quit_browser()
 
     def test_login(self):
-        """正确的用户名和密码登录测试"""
+        """正确的用户名和正确密码登录测试"""
         self.loginPage.click_loginbtn_first()
         self.loginPage.input_username_org("13722222222")
         self.loginPage.input_password_org("88888888")
         self.loginPage.click_loginbtn_org()
         self.loginPage.js_scroll_end()
+
+    def test_login_1(self):
+        """正确的用户名和错误密码登录测试"""
+        self.loginPage.click_loginbtn_first()
+        self.loginPage.input_username_org("13722222222")
+        self.loginPage.input_password_org("88888887")
+        self.loginPage.click_loginbtn_org()
 
 
 if __name__ == "__main__":
