@@ -1,0 +1,41 @@
+2018-04-25 23:32:26,635 - BasePage - INFO - You had select Firefox browser.
+2018-04-25 23:32:26,635 - BasePage - INFO - The test server url1 is: http://dsy.10333.com
+2018-04-25 23:32:29,892 - BasePage - INFO - Starting firefox browser.
+2018-04-25 23:32:30,299 - BasePage - INFO - Open url1: http://dsy.10333.com
+2018-04-25 23:32:30,511 - BasePage - INFO - Maximize the current window.
+2018-04-25 23:32:30,551 - BasePage - INFO - Set implicitly wait 10 seconds.
+2018-04-25 23:32:32,332 - BasePage - INFO - The element xpath=>//a[contains(.,'登录')] was clicked.
+2018-04-25 23:32:32,332 - LoginPage - INFO - 点击首页左上角的登录按钮
+2018-04-25 23:32:32,422 - BasePage - INFO - Input test 13722222222 in inputBox
+2018-04-25 23:32:32,422 - LoginPage - INFO - 输入项目账号：13722222222
+2018-04-25 23:32:32,473 - BasePage - INFO - Input test 88888888 in inputBox
+2018-04-25 23:32:32,473 - LoginPage - INFO - 输入项目账号密码：88888888
+2018-04-25 23:32:34,006 - BasePage - INFO - The element xpath=>//input[contains(@systype,'1')] was clicked.
+2018-04-25 23:32:34,006 - LoginPage - INFO - 点击项目登录按钮
+2018-04-25 23:32:34,020 - BasePage - INFO - Now! Close and quit the browser.
+2018-04-25 23:32:34,254 - BasePage - INFO - 关闭浏览器
+2018-04-25 23:32:34,257 - BasePage - INFO - You had select Firefox browser.
+2018-04-25 23:32:34,257 - BasePage - INFO - The test server url1 is: http://dsy.10333.com
+2018-04-25 23:32:37,516 - BasePage - INFO - Starting firefox browser.
+2018-04-25 23:32:37,950 - BasePage - INFO - Open url1: http://dsy.10333.com
+2018-04-25 23:32:38,135 - BasePage - INFO - Maximize the current window.
+2018-04-25 23:32:38,155 - BasePage - INFO - Set implicitly wait 10 seconds.
+2018-04-25 23:32:40,022 - BasePage - INFO - The element xpath=>//a[contains(.,'登录')] was clicked.
+2018-04-25 23:32:40,022 - LoginPage - INFO - 点击首页左上角的登录按钮
+2018-04-25 23:32:40,022 - GetInfo - INFO - The test loginname  is: 施工总包 13722222270
+2018-04-25 23:32:40,098 - BasePage - INFO - Input test 13722222270 in inputBox
+2018-04-25 23:32:40,099 - LoginPage - INFO - 输入项目账号：13722222270
+2018-04-25 23:32:40,141 - BasePage - INFO - Input test 88888888 in inputBox
+2018-04-25 23:32:40,142 - LoginPage - INFO - 输入项目账号密码：88888888
+2018-04-25 23:32:41,619 - BasePage - INFO - The element xpath=>//input[contains(@systype,'1')] was clicked.
+2018-04-25 23:32:41,619 - LoginPage - INFO - 点击项目登录按钮
+2018-04-25 23:32:43,171 - BasePage - INFO - The element xpath=>//span[contains(.,'项目联系文件')] was clicked.
+2018-04-25 23:32:44,417 - BasePage - INFO - The element xpath=>//span[@data-reactid='.0.$0/=10.3.$0/=10.0.1.0.1.0.0.0'] was clicked.
+2018-04-25 23:32:45,652 - BasePage - INFO - The element xpath=>//input[@data-reactid='.1.1.0.1.0.3:$0.0.0'] was clicked.
+2018-04-25 23:32:47,009 - BasePage - INFO - The element xpath=>//button[contains(.,'确定')] was clicked.
+2018-04-25 23:32:48,009 - BasePage - INFO - Sleep for 1 seconds
+2018-04-25 23:32:49,361 - BasePage - INFO - The element xpath=>//button[contains(.,'提交')] was clicked.
+2018-04-25 23:32:50,609 - BasePage - INFO - The element xpath=>//i[@class='ids guanbituichu'] was clicked.
+2018-04-25 23:32:50,609 - LoginPage - INFO - 点击退出按钮
+2018-04-25 23:32:50,609 - BasePage - INFO - Now! Close and quit the browser.
+2018-04-25 23:32:50,881 - BasePage - INFO - 关闭浏览器
