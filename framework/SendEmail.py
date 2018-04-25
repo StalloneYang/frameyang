@@ -59,8 +59,8 @@ class SendMail(object):
         # smtp.sendmail(sender, receiver, msg.as_string())
         smtp.sendmail(sender, toaddrs, msg.as_string())
         smtp.quit()
-        print('测试报告已经发送成功!')
-        print("打印最新报告路径:%s" % self.get_report())
+        print('测试报告已经邮件发送成功!')
+        print("最新测试报告路径为:%s" % self.get_report())
 
 if __name__ == '__main__':
     sendMail = SendMail()

@@ -22,9 +22,9 @@ report_path = os.path.join(father_path, "reports\\")
 # 获取系统当前时间
 now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
 
-# 设置报告名称格式
-HtmlFile = report_path + "智慧工程2.0测试报告" + now + ".html"
-fp = open(HtmlFile, "wb")
+# # 设置报告名称格式
+# HtmlFile = report_path + "智慧工程2.0测试报告" + now + ".html"
+# fp = open(HtmlFile, "wb")
 
 casepath = os.path.join(father_path, "cases")
 
@@ -36,16 +36,16 @@ print("打印执行的测试套件：%s" % allCase)
 
 if __name__ =='__main__':
 
-    # 初始化一个HTMLTestRunner实例对象，用来生成报告
-    runner = HTMLTestRunner.HTMLTestRunner(stream=fp, verbosity=2, title=u"智慧工程2.0自动化测试报告", description=u"用例测试情况")
-    # 开始执行测试套件
-    runner.run(allCase)
-    fp.close()
+    # # 初始化一个HTMLTestRunner实例对象，用来生成报告
+    # runner = HTMLTestRunner.HTMLTestRunner(stream=fp, verbosity=2, title=u"智慧工程2.0自动化测试报告", description=u"用例测试情况")
+    # # 开始执行测试套件
+    # runner.run(allCase)
+    # fp.close()
 
-    # # 用新样式生成测试报告
-    # HtmlFile = report_path
-    # result = BeautifulReport(allCase)  # 最新的报告样式
-    # result.report(filename='智慧工程2.0测试报告%s'%now, description='智慧工程2.0测试报告', log_path=HtmlFile)
+    # 用新样式生成测试报告
+    HtmlFile = report_path
+    result = BeautifulReport(allCase)  # 最新的报告样式
+    result.report(filename='智慧工程2.0测试报告%s'%now, description='执行所有智慧工程2.0的测试用例', log_path=HtmlFile)
 
     # 测试结束之后，执行邮件发送报告
     sendMail = SendMail()
