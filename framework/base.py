@@ -146,10 +146,14 @@ class BasePage(object):
         css: s  css  css_selector  css selector
         """
         try:
+            if type(selector) is tuple:
+                logger.info("元素是元组！")
+                return selector
             if '=>' not in selector:
+                logger.info("元素写法不规范！")
                 return selector
         except:
-            logger.error("元素写法不规范！")
+            logger.error("元素定位异常！")
 
         selector_by = selector.split('=>')[0]
         selector_value = selector.split('=>')[1]

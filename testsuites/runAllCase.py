@@ -18,7 +18,7 @@ curpath = os.path.dirname(os.path.realpath(__file__))
 # 当前文件的父路径
 father_path=os.path.abspath(os.path.dirname(curpath)+os.path.sep+".")
 # 报告路径
-report_path = os.path.join(father_path, "reports\\")
+report_path = os.path.join(father_path, "reports")
 # 获取系统当前时间
 now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
 
@@ -42,7 +42,7 @@ if __name__ =='__main__':
     # runner.run(allCase)
     # fp.close()
 
-    # 用新样式生成测试报告
+    # 用新样式生成测试报告,    BeautifulReport需去Git，放在site-packages的下面
     HtmlFile = report_path
     result = BeautifulReport(allCase)  # 最新的报告样式
     result.report(filename='智慧工程2.0测试报告%s'%now, description='执行所有智慧工程2.0的测试用例', log_path=HtmlFile)
