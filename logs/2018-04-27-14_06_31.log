@@ -1,0 +1,56 @@
+2018-04-27 14:06:31,104 - BasePage - INFO - You had select Firefox browser.
+2018-04-27 14:06:31,105 - BasePage - INFO - The test server url1 is: http://dsy.10333.com
+2018-04-27 14:06:34,641 - BasePage - INFO - Starting firefox browser.
+2018-04-27 14:06:35,140 - BasePage - INFO - Open url1: http://dsy.10333.com
+2018-04-27 14:06:35,177 - BasePage - INFO - Maximize the current window.
+2018-04-27 14:06:35,286 - BasePage - INFO - Set implicitly wait 10 seconds.
+2018-04-27 14:06:37,840 - BasePage - INFO - The element xpath=>//a[contains(.,'登录')] was clicked.
+2018-04-27 14:06:37,841 - LoginPage - INFO - 点击首页左上角的登录按钮
+2018-04-27 14:06:37,959 - BasePage - INFO - Input test 13700000000 in inputBox
+2018-04-27 14:06:37,959 - LoginPage - INFO - 输入项目账号：13700000000
+2018-04-27 14:06:37,999 - BasePage - INFO - Input test 88888888 in inputBox
+2018-04-27 14:06:37,999 - LoginPage - INFO - 输入项目账号密码：88888888
+2018-04-27 14:06:39,625 - BasePage - INFO - The element xpath=>//input[contains(@systype,'1')] was clicked.
+2018-04-27 14:06:39,625 - LoginPage - INFO - 点击项目登录按钮
+2018-04-27 14:06:39,636 - BasePage - INFO - Now! Close and quit the browser.
+2018-04-27 14:06:39,852 - BasePage - INFO - 关闭浏览器
+2018-04-27 14:06:39,855 - BasePage - INFO - You had select Firefox browser.
+2018-04-27 14:06:39,855 - BasePage - INFO - The test server url1 is: http://dsy.10333.com
+2018-04-27 14:06:43,131 - BasePage - INFO - Starting firefox browser.
+2018-04-27 14:06:43,496 - BasePage - INFO - Open url1: http://dsy.10333.com
+2018-04-27 14:06:43,611 - BasePage - INFO - Maximize the current window.
+2018-04-27 14:06:43,664 - BasePage - INFO - Set implicitly wait 10 seconds.
+2018-04-27 14:06:45,361 - BasePage - INFO - The element xpath=>//a[contains(.,'登录')] was clicked.
+2018-04-27 14:06:45,361 - LoginPage - INFO - 点击首页左上角的登录按钮
+2018-04-27 14:06:45,470 - BasePage - INFO - Input test 13711111111 in inputBox
+2018-04-27 14:06:45,470 - LoginPage - INFO - 输入项目账号：13711111111
+2018-04-27 14:06:45,511 - BasePage - INFO - Input test 88888888 in inputBox
+2018-04-27 14:06:45,511 - LoginPage - INFO - 输入项目账号密码：88888888
+2018-04-27 14:06:47,013 - BasePage - INFO - The element xpath=>//input[contains(@systype,'1')] was clicked.
+2018-04-27 14:06:47,013 - LoginPage - INFO - 点击项目登录按钮
+2018-04-27 14:06:47,019 - BasePage - INFO - Now! Close and quit the browser.
+2018-04-27 14:06:47,329 - BasePage - INFO - 关闭浏览器
+2018-04-27 14:06:47,331 - BasePage - INFO - You had select Firefox browser.
+2018-04-27 14:06:47,332 - BasePage - INFO - The test server url1 is: http://dsy.10333.com
+2018-04-27 14:06:52,476 - BasePage - INFO - Starting firefox browser.
+2018-04-27 14:06:52,947 - BasePage - INFO - Open url1: http://dsy.10333.com
+2018-04-27 14:06:53,044 - BasePage - INFO - Maximize the current window.
+2018-04-27 14:06:53,096 - BasePage - INFO - Set implicitly wait 10 seconds.
+2018-04-27 14:06:55,100 - BasePage - INFO - The element xpath=>//a[contains(.,'登录')] was clicked.
+2018-04-27 14:06:55,100 - LoginPage - INFO - 点击首页左上角的登录按钮
+2018-04-27 14:06:55,207 - BasePage - INFO - Input test 137222222222 in inputBox
+2018-04-27 14:06:55,207 - LoginPage - INFO - 输入项目账号：137222222222
+2018-04-27 14:06:55,275 - BasePage - INFO - Input test 35345345 in inputBox
+2018-04-27 14:06:55,276 - LoginPage - INFO - 输入项目账号密码：35345345
+2018-04-27 14:06:56,536 - BasePage - INFO - The element xpath=>//input[contains(@systype,'1')] was clicked.
+2018-04-27 14:06:56,536 - LoginPage - INFO - 点击项目登录按钮
+2018-04-27 14:06:56,560 - BasePage - INFO - Now! Close and quit the browser.
+2018-04-27 14:06:56,851 - BasePage - INFO - 关闭浏览器
+2018-04-27 14:06:56,851 - BasePage - INFO - You had select Firefox browser.
+2018-04-27 14:06:56,851 - BasePage - INFO - The test server url1 is: http://dsy.10333.com
+2018-04-27 14:07:02,937 - BasePage - INFO - Starting firefox browser.
+2018-04-27 14:07:03,871 - BasePage - INFO - Open url1: http://dsy.10333.com
+2018-04-27 14:07:04,006 - BasePage - INFO - Maximize the current window.
+2018-04-27 14:07:04,036 - BasePage - INFO - Set implicitly wait 10 seconds.
+2018-04-27 14:07:04,036 - BasePage - INFO - Now! Close and quit the browser.
+2018-04-27 14:07:04,561 - BasePage - INFO - 关闭浏览器

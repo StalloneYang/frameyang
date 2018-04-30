@@ -1,0 +1,16 @@
+2018-04-26 22:21:38,987 - BasePage - INFO - You had select Firefox browser.
+2018-04-26 22:21:38,988 - BasePage - INFO - The test server url1 is: http://dsy.10333.com
+2018-04-26 22:21:42,479 - BasePage - INFO - Starting firefox browser.
+2018-04-26 22:21:43,059 - BasePage - INFO - Open url1: http://dsy.10333.com
+2018-04-26 22:21:43,252 - BasePage - INFO - Maximize the current window.
+2018-04-26 22:21:43,335 - BasePage - INFO - Set implicitly wait 10 seconds.
+2018-04-26 22:21:45,136 - BasePage - INFO - The element xpath=>//a[contains(.,'登录')] was clicked.
+2018-04-26 22:21:45,136 - LoginPage - INFO - 点击首页左上角的登录按钮
+2018-04-26 22:21:45,208 - BasePage - INFO - Input test 13722222222 in inputBox
+2018-04-26 22:21:45,208 - LoginPage - INFO - 输入项目账号：13722222222
+2018-04-26 22:21:45,278 - BasePage - INFO - Input test 88888888 in inputBox
+2018-04-26 22:21:45,278 - LoginPage - INFO - 输入项目账号密码：88888888
+2018-04-26 22:21:46,815 - BasePage - INFO - The element xpath=>//input[contains(@systype,'1')] was clicked.
+2018-04-26 22:21:46,815 - LoginPage - INFO - 点击项目登录按钮
+2018-04-26 22:21:46,822 - BasePage - INFO - Now! Close and quit the browser.
+2018-04-26 22:21:47,042 - BasePage - INFO - 关闭浏览器

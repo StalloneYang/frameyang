@@ -147,7 +147,7 @@ class BasePage(object):
         """
         try:
             if type(selector) is tuple:
-                logger.info("元素是元组！")
+                # logger.info("元素是元组！")
                 return selector
             if '=>' not in selector:
                 logger.info("元素写法不规范！")
@@ -239,6 +239,9 @@ class BasePage(object):
             # logger.info("Find the element successful ! " + selector_by + " value is " + selector_value )  #% (element.text, selector_by, selector_value)
         except NoSuchElementException as e:
             logger.error("NoSuchElementException: %s" % e)
+            self.get_windows_img()  # take screenshot
+        except:
+            logger.error("==============================元素定位失败！==============================")
             self.get_windows_img()  # take screenshot
 
         return element
